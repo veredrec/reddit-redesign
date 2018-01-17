@@ -1,12 +1,4 @@
-<!-- TODO
-- hot in different color
-- tasks from css file
-- footer
-- lower navbar
-- responsive on other devices
-- figure out the more thing for menu items
-- github
-- screen shots -->
+<!-- TODO figure out the more thing for menu items -->
 
 <!DOCTYPE html>
 <html>
@@ -15,60 +7,59 @@
   <meta charset="utf-8">
   <link rel='shortcut icon' type='image/png' href='assets/favicon.png'/>
   <script src="https://use.fontawesome.com/7a1353cd80.js"></script>
-  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
-  <title>Reddit</title>
+  <title>Reddit Redesign</title>
 </head>
 
 <body>
   <!-- TOP NAV -->
   <nav class="top-nav">
     <ul class="top-menu">
-      <li class="top-menu-item strong">MY SUBREDDIT</li>
-      <!--Add small arrow or drop down sign-->
+      <li class="top-menu-item strong">MY SUBREDDIT &nbsp;
+      <i class="fa fa-caret-down" aria-hidden="true"></i></li>
       <li class="top-menu-item strong">POPULAR</li>
-      <li class="dash"> * </li>
-      <!-- change stars to small circles -->
+      <li class="dash"> &bullet; </li>
       <li class="top-menu-item strong">ALL</li>
-      <li class="dash"> * </li>
+      <li class="dash"> &bullet; </li>
       <li class="top-menu-item strong">RANDOM</li>
-      <li class="dash"> * </li>
+      <li class="dash"> &bullet; </li>
       <li class="top-menu-item strong">USERS</li>
       <span class="pipe-upper"> | </span>
       <li class="top-menu-item">ASKREDDIT</li>
-      <li class="dash"> - </li>
+      <li class="dash"> &diams; </li>
       <li class="top-menu-item">IAMA</li>
-      <li class="dash"> - </li>
+      <li class="dash"> &diams; </li>
       <li class="top-menu-item">FUNNY</li>
-      <li class="dash"> - </li>
+      <li class="dash"> &diams; </li>
       <li class="top-menu-item">TODAYILEARNED</li>
-      <li class="dash"> - </li>
+      <li class="dash"> &diams; </li>
       <li class="top-menu-item">PICS</li>
-      <li class="dash"> - </li>
+      <li class="dash"> &diams; </li>
       <li class="top-menu-item">MOVIES</li>
       <li class="dash"> - </li>
       <li class="top-menu-item">NEWS</li>
-      <li class="dash"> - </li>
+      <li class="dash"> &diams; </li>
       <li class="top-menu-item">AWW</li>
-      <li class="dash"> - </li>
+      <li class="dash"> &diams; </li>
       <li class="top-menu-item">SHOWERTHOUGHTS</li>
-      <li class="dash"> - </li>
+      <li class="dash"> &diams; </li>
       <li class="top-menu-item">TELEVISION</li>
-      <li class="dash"> - </li>
+      <li class="dash"> &diams; </li>
       <li class="top-menu-item">JOKES</li>
-      <li class="dash"> - </li>
+      <li class="dash"> &diams; </li>
       <li class="top-menu-item">SCIENCE</li>
-      <li class="dash"> - </li>
+      <li class="dash"> &diams; </li>
       <li class="top-menu-item">MORE</li>
     </ul>
   </nav>
+
   <!-- HEADER -->
   <header class="header">
-    <img class="logo" src="logo.png" alt="Reddit Logo">
+    <img class="logo" src="assets/logo.png" alt="Reddit Logo">
     <nav class="secondary-nav">
       <ul class="secondary-menu">
         <li class="sec-menu-item current">Hot</li>
-        <!-- Maybe add an icon for each with label underneath or no label?-->
         <li class="sec-menu-item">New</li>
         <li class="sec-menu-item">Rising</li>
         <li class="sec-menu-item">Controversial</li>
@@ -79,17 +70,20 @@
     </nav>
     <p class="user"><i class="fa fa-user" aria-hidden="true"></i></p>
   </header>
+
   <!-- MAIN CONTENT -->
   <section class="main">
     <div class="card">
       <div class="card-top">
         <p class="num">1</p>
         <p class="votes">
-          <i class="arraow fa fa-arrow-up" aria-hidden="true"></i>143
-          <i class="arraow fa fa-arrow-down" aria-hidden="true"></i></p>
+          <i class="arrow fa fa-arrow-up" aria-hidden="true"></i>
+          14k
+          <i class="arrow fa fa-arrow-down" aria-hidden="true"></i>
+        </p>
       </div>
-      <img class="card-img" src="assets/boots.jpg" alt="candies">
-      <h2 class="card-title">Same boot. 3 years and 6,000+ hrs of work difference</h2>
+      <img class="card-img" src="assets/boots.jpg" alt="Boots">
+      <h2 class="card-title">Same boot, 3 years and 6,000 hrs of work difference</h2>
       <p class="card-submit">submitted 1 month ago by <span class="author">bobnoga</span></p>
       <div class="card-bottom">
         <p class="social"> 1788 comments</p>
@@ -102,9 +96,13 @@
     <div class="card">
       <div class="card-top">
         <p class="num">2</p>
-        <p class="votes">112</p>
+        <p class="votes">
+          <i class="arrow fa fa-arrow-up" aria-hidden="true"></i>
+          112
+          <i class="arrow fa fa-arrow-down" aria-hidden="true"></i>
+        </p>
       </div>
-      <img class="card-img" src="assets/containers.jpg" alt="candies">
+      <img class="card-img" src="assets/containers.jpg" alt="Containers">
       <h2 class="card-title">I took a picture of containers in Montreal's port</h2>
       <p class="card-submit">submitted 15 days ago by <span class="author">simonlachapelle</span></p>
       <div class="card-bottom">
@@ -118,9 +116,13 @@
     <div class="card">
       <div class="card-top">
         <p class="num">3</p>
-        <p class="votes">762</p>
+        <p class="votes">
+          <i class="arrow fa fa-arrow-up" aria-hidden="true"></i>
+          762
+          <i class="arrow fa fa-arrow-down" aria-hidden="true"></i>
+        </p>
       </div>
-      <img class="card-img" src="assets/rule.png" alt="candies">
+      <img class="card-img" src="assets/rule.png" alt="Rule">
       <h2 class="card-title">This is how you rule</h2>
       <p class="card-submit">submitted 23 hours ago by <span class="author">pigona_wing</span></p>
       <div class="card-bottom">
@@ -134,9 +136,13 @@
     <div class="card">
       <div class="card-top">
         <p class="num">4</p>
-        <p class="votes">612</p>
+        <p class="votes">
+          <i class="arrow fa fa-arrow-up" aria-hidden="true"></i>
+          22k
+          <i class="arrow fa fa-arrow-down" aria-hidden="true"></i>
+        </p>
       </div>
-      <img class="card-img" src="assets/cube.jpg" alt="candies">
+      <img class="card-img" src="assets/cube.jpg" alt="Comics Rubik's cube">
       <h2 class="card-title">You'll be alright</h2>
       <p class="card-submit">submitted 3 months ago by <span class="author">just_tryin_2_make_it</span></p>
       <div class="card-bottom">
@@ -150,9 +156,13 @@
     <div class="card">
       <div class="card-top">
         <p class="num">5</p>
-        <p class="votes">428</p>
+        <p class="votes">
+          <i class="arrow fa fa-arrow-up" aria-hidden="true"></i>
+          428
+          <i class="arrow fa fa-arrow-down" aria-hidden="true"></i>
+        </p>
       </div>
-      <img class="card-img" src="assets/plate.jpg" alt="candies">
+      <img class="card-img" src="assets/plate.jpg" alt="New Plates">
       <h2 class="card-title">Got my new plates today. (P.S. I'm a lawyer)</h2>
       <p class="card-submit">submitted 22 hours ago by <span class="author">Legalsandwich</span></p>
       <div class="card-bottom">
@@ -166,9 +176,13 @@
     <div class="card">
       <div class="card-top">
         <p class="num">6</p>
-        <p class="votes">907</p>
+        <p class="votes">
+          <i class="arrow fa fa-arrow-up" aria-hidden="true"></i>
+          907
+          <i class="arrow fa fa-arrow-down" aria-hidden="true"></i>
+        </p>
       </div>
-      <img class="card-img" src="assets/proposal.jpg" alt="candies">
+      <img class="card-img" src="assets/proposal.jpg" alt="Marriage proposal">
       <h2 class="card-title">A 7-mile run turned into a marriage proposal</h2>
       <p class="card-submit">submitted 3 weeks ago by <span class="author">BroverCleveland</span></p>
       <div class="card-bottom">
@@ -182,9 +196,13 @@
     <div class="card">
       <div class="card-top">
         <p class="num">7</p>
-        <p class="votes">675</p>
+        <p class="votes">
+          <i class="arrow fa fa-arrow-up" aria-hidden="true"></i>
+          475
+          <i class="arrow fa fa-arrow-down" aria-hidden="true"></i>
+        </p>
       </div>
-      <img class="card-img" src="assets/sesame.jpg" alt="candies">
+      <img class="card-img" src="assets/sesame.png" alt="Sesame Street">
       <h2 class="card-title">‘Sesame Street’ got $100M for refugees education</h2>
       <p class="card-submit">submitted 27 days by <span class="author">ArabicBabe007</span></p>
       <div class="card-bottom">
@@ -198,13 +216,17 @@
     <div class="card">
       <div class="card-top">
         <p class="num">8</p>
-        <p class="votes">1096</p>
+        <p class="votes">
+          <i class="arrow fa fa-arrow-up" aria-hidden="true"></i>
+          1096
+          <i class="arrow fa fa-arrow-down" aria-hidden="true"></i>
+        </p>
       </div>
-      <img class="card-img" src="assets/canada.jpg" alt="candies">
+      <img class="card-img" src="assets/canada.jpg" alt="Refugees in Canada">
       <h2 class="card-title">“Canada will welcome you,” Trudeau invites refugees</h2>
       <p class="card-submit">submitted 11 months ago by <span class="author">diosmio</span></p>
       <div class="card-bottom">
-        <p class="social"> 9089 comments</p>
+        <p class="social"> 2089 comments</p>
         <p class="social"> share</p>
         <p class="social"> save</p>
         <p class="social"> hide</p>
@@ -212,8 +234,46 @@
       </div>
     </div>
   </section>
+
   <!-- LOWER MENU -->
+  <section class="lower-menu">
+    <nav class="nav-lower-left">
+      <ul class="menu-part">
+        <li class="first-item">ABOUT</li>
+        <li>blog</li>
+        <li>advertise</li>
+        <li>careers</li>
+      </ul>
+    </nav>
+    <nav class="nav-lower-left">
+      <ul class="menu-part">
+        <li class="first-item">HELP</li>
+        <li>site rules</li>
+        <li>help center</li>
+        <li>wiki</li>
+        <li>reddiquette</li>
+        <li>mod guidelines</li>
+        <li>contact us</li>
+      </ul>
+    </nav>
+    <nav class="nav-lower-left">
+      <ul class="menu-part">
+        <li class="first-item">APPS & TOOLS</li>
+        <li>Reddit for iPhone</li>
+        <li>Reddit for Android</li>
+        <li>mobile website</li>
+        <li>buttons</li>
+      </ul>
+    </nav>
+  </section>
+
   <!-- FOOTER -->
+  <footer class="footer">
+    <p class="footer-text">This page was made as a redesign project.
+      All content is based on Reddit content but is not copy of the original</p>
+    <p class="footer-text"><a class="link" href="https://veredrec.github.io/Portfolio/">
+      Vered Rekanati </a> &nbsp; &diams; &nbsp; veredrec@gmail.com &nbsp; &diams; &nbsp; &#169; 2018 </p>
+  </footer>
 </body>
 
 </html>
