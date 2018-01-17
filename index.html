@@ -1,0 +1,219 @@
+<!-- TODO
+- hot in different color
+- tasks from css file
+- footer
+- lower navbar
+- responsive on other devices
+- figure out the more thing for menu items
+- github
+- screen shots -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link rel='shortcut icon' type='image/png' href='assets/favicon.png'/>
+  <script src="https://use.fontawesome.com/7a1353cd80.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Reddit</title>
+</head>
+
+<body>
+  <!-- TOP NAV -->
+  <nav class="top-nav">
+    <ul class="top-menu">
+      <li class="top-menu-item strong">MY SUBREDDIT</li>
+      <!--Add small arrow or drop down sign-->
+      <li class="top-menu-item strong">POPULAR</li>
+      <li class="dash"> * </li>
+      <!-- change stars to small circles -->
+      <li class="top-menu-item strong">ALL</li>
+      <li class="dash"> * </li>
+      <li class="top-menu-item strong">RANDOM</li>
+      <li class="dash"> * </li>
+      <li class="top-menu-item strong">USERS</li>
+      <span class="pipe-upper"> | </span>
+      <li class="top-menu-item">ASKREDDIT</li>
+      <li class="dash"> - </li>
+      <li class="top-menu-item">IAMA</li>
+      <li class="dash"> - </li>
+      <li class="top-menu-item">FUNNY</li>
+      <li class="dash"> - </li>
+      <li class="top-menu-item">TODAYILEARNED</li>
+      <li class="dash"> - </li>
+      <li class="top-menu-item">PICS</li>
+      <li class="dash"> - </li>
+      <li class="top-menu-item">MOVIES</li>
+      <li class="dash"> - </li>
+      <li class="top-menu-item">NEWS</li>
+      <li class="dash"> - </li>
+      <li class="top-menu-item">AWW</li>
+      <li class="dash"> - </li>
+      <li class="top-menu-item">SHOWERTHOUGHTS</li>
+      <li class="dash"> - </li>
+      <li class="top-menu-item">TELEVISION</li>
+      <li class="dash"> - </li>
+      <li class="top-menu-item">JOKES</li>
+      <li class="dash"> - </li>
+      <li class="top-menu-item">SCIENCE</li>
+      <li class="dash"> - </li>
+      <li class="top-menu-item">MORE</li>
+    </ul>
+  </nav>
+  <!-- HEADER -->
+  <header class="header">
+    <img class="logo" src="logo.png" alt="Reddit Logo">
+    <nav class="secondary-nav">
+      <ul class="secondary-menu">
+        <li class="sec-menu-item current">Hot</li>
+        <!-- Maybe add an icon for each with label underneath or no label?-->
+        <li class="sec-menu-item">New</li>
+        <li class="sec-menu-item">Rising</li>
+        <li class="sec-menu-item">Controversial</li>
+        <li class="sec-menu-item">Top</li>
+        <li class="sec-menu-item">Gilded</li>
+        <li class="sec-menu-item last-item">Wiki</li>
+      </ul>
+    </nav>
+    <p class="user"><i class="fa fa-user" aria-hidden="true"></i></p>
+  </header>
+  <!-- MAIN CONTENT -->
+  <section class="main">
+    <div class="card">
+      <div class="card-top">
+        <p class="num">1</p>
+        <p class="votes">
+          <i class="arraow fa fa-arrow-up" aria-hidden="true"></i>143
+          <i class="arraow fa fa-arrow-down" aria-hidden="true"></i></p>
+      </div>
+      <img class="card-img" src="assets/boots.jpg" alt="candies">
+      <h2 class="card-title">Same boot. 3 years and 6,000+ hrs of work difference</h2>
+      <p class="card-submit">submitted 1 month ago by <span class="author">bobnoga</span></p>
+      <div class="card-bottom">
+        <p class="social"> 1788 comments</p>
+        <p class="social"> share</p>
+        <p class="social"> save</p>
+        <p class="social"> hide</p>
+        <p class="social"> report</p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-top">
+        <p class="num">2</p>
+        <p class="votes">112</p>
+      </div>
+      <img class="card-img" src="assets/containers.jpg" alt="candies">
+      <h2 class="card-title">I took a picture of containers in Montreal's port</h2>
+      <p class="card-submit">submitted 15 days ago by <span class="author">simonlachapelle</span></p>
+      <div class="card-bottom">
+        <p class="social"> 378 comments</p>
+        <p class="social"> share</p>
+        <p class="social"> save</p>
+        <p class="social"> hide</p>
+        <p class="social"> report</p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-top">
+        <p class="num">3</p>
+        <p class="votes">762</p>
+      </div>
+      <img class="card-img" src="assets/rule.png" alt="candies">
+      <h2 class="card-title">This is how you rule</h2>
+      <p class="card-submit">submitted 23 hours ago by <span class="author">pigona_wing</span></p>
+      <div class="card-bottom">
+        <p class="social"> 161 comments</p>
+        <p class="social"> share</p>
+        <p class="social"> save</p>
+        <p class="social"> hide</p>
+        <p class="social"> report</p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-top">
+        <p class="num">4</p>
+        <p class="votes">612</p>
+      </div>
+      <img class="card-img" src="assets/cube.jpg" alt="candies">
+      <h2 class="card-title">You'll be alright</h2>
+      <p class="card-submit">submitted 3 months ago by <span class="author">just_tryin_2_make_it</span></p>
+      <div class="card-bottom">
+        <p class="social"> 223 comments</p>
+        <p class="social"> share</p>
+        <p class="social"> save</p>
+        <p class="social"> hide</p>
+        <p class="social"> report</p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-top">
+        <p class="num">5</p>
+        <p class="votes">428</p>
+      </div>
+      <img class="card-img" src="assets/plate.jpg" alt="candies">
+      <h2 class="card-title">Got my new plates today. (P.S. I'm a lawyer)</h2>
+      <p class="card-submit">submitted 22 hours ago by <span class="author">Legalsandwich</span></p>
+      <div class="card-bottom">
+        <p class="social"> 535 comments</p>
+        <p class="social"> share</p>
+        <p class="social"> save</p>
+        <p class="social"> hide</p>
+        <p class="social"> report</p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-top">
+        <p class="num">6</p>
+        <p class="votes">907</p>
+      </div>
+      <img class="card-img" src="assets/proposal.jpg" alt="candies">
+      <h2 class="card-title">A 7-mile run turned into a marriage proposal</h2>
+      <p class="card-submit">submitted 3 weeks ago by <span class="author">BroverCleveland</span></p>
+      <div class="card-bottom">
+        <p class="social"> 102 comments</p>
+        <p class="social"> share</p>
+        <p class="social"> save</p>
+        <p class="social"> hide</p>
+        <p class="social"> report</p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-top">
+        <p class="num">7</p>
+        <p class="votes">675</p>
+      </div>
+      <img class="card-img" src="assets/sesame.jpg" alt="candies">
+      <h2 class="card-title">‘Sesame Street’ got $100M for refugees education</h2>
+      <p class="card-submit">submitted 27 days by <span class="author">ArabicBabe007</span></p>
+      <div class="card-bottom">
+        <p class="social"> 1161 comments</p>
+        <p class="social"> share</p>
+        <p class="social"> save</p>
+        <p class="social"> hide</p>
+        <p class="social"> report</p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-top">
+        <p class="num">8</p>
+        <p class="votes">1096</p>
+      </div>
+      <img class="card-img" src="assets/canada.jpg" alt="candies">
+      <h2 class="card-title">“Canada will welcome you,” Trudeau invites refugees</h2>
+      <p class="card-submit">submitted 11 months ago by <span class="author">diosmio</span></p>
+      <div class="card-bottom">
+        <p class="social"> 9089 comments</p>
+        <p class="social"> share</p>
+        <p class="social"> save</p>
+        <p class="social"> hide</p>
+        <p class="social"> report</p>
+      </div>
+    </div>
+  </section>
+  <!-- LOWER MENU -->
+  <!-- FOOTER -->
+</body>
+
+</html>
