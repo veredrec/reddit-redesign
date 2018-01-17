@@ -1,0 +1,134 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.top-nav {
+  margin: 0;
+}
+.top-menu {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  font-size: 0.7rem;
+  background-color: #545452;
+  padding: 0.5rem 0.2rem;
+  margin: 0;
+}
+.top-menu-item {
+  color: #eee;
+  cursor: pointer;
+}
+.dash {
+  color: #ccc;
+}
+.pipe-upper {
+  color: #eee;
+}
+.strong {
+  font-weight: bold;
+}
+/* remove space before list UL */
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ff5700;
+  font-size: 1.2rem;
+  padding: 0 2rem;
+}
+.logo {
+  width: 200px;
+  height: 66px;
+  padding: 0.5rem;
+}
+.secondary-menu {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  font-size: 1rem;
+  padding: 0.5rem 0.2rem;
+  margin: 0;
+  margin-top: 1rem;
+}
+.sec-menu-item {
+  padding-right: 1rem;
+  border-right: 1px solid #fff;
+  margin-right: 1rem;
+  color: #fff;
+  margin-top: 1.5rem;
+}
+.current {
+  font-weight: bold;
+}
+.last-item {
+  border: none;
+}
+.fa-user {
+  color: black;
+  font-size: 1.2rem;
+  border: 2px solid #000;
+  border-radius: 50%;
+  padding: 0.2rem;
+}
+/* CARD */
+.main {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 250px;
+  margin: 1rem;
+  border: 0.1rem solid #545452;
+  border-radius: 1rem;
+  padding: 0.3rem;
+}
+.card-top {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.card-img {
+  display: block;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  border-radius: 1rem;
+  border: 1px solid #8f7a70;
+  padding: 1rem;
+}
+.num {
+  color: #545452;
+  font-size: 2rem;
+  margin: 0 0 0 0.2rem;
+  opacity: 0.8;
+}
+.votes {
+  color: #7f4fc4;
+  font-size: 1.3rem;
+  margin: 0.5rem 0.2rem 0 0;
+}
+.card-title {
+  font-size: 1.3rem;
+  text-align: center;
+}
+.card-submit {
+  text-align: center;
+}
+.author {
+  color: #7f4fc4;
+}
+.card-bottom {
+  display: flex;
+  justify-content: space-around;
+}
+.social {
+  margin: 0 0.2rem;
+  flex-wrap: nowrap;
+  color: #ff5700;
+}
