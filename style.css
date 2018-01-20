@@ -95,7 +95,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 250px;
+  width: 18%;
   margin: 1rem;
   background-color: #fedbc2;
   border-radius: 0.7rem;
@@ -114,45 +114,47 @@ body {
   justify-content: space-between;
   flex-direction: row;
 }
-.card-title {
-  margin: 0.4rem 0 0 0;
-}
-.title-link {
-  color: #000;
-  text-decoration: none;
-  font-size: 1.1rem;
-  transition: all 0.5s ease;
-}
 .card-img {
   display: block;
   width: 100px;
   height: 80px;
   margin: -0.5rem auto;
   border-radius: 1rem;
-  border: 1px solid #8f7a70;
+  /*border: 1px solid #8f7a70;*/
   padding: 0.5rem;
 }
 .num {
   color: #545452;
-  font-size: 2rem;
+  font-size: 1.3rem;
   margin: 0 0 0 0.2rem;
   opacity: 0.8;
 }
 .votes {
   color: #00a8ff;
-  font-size: 1.3rem;
-  margin: 0.4rem 0.2rem 0 0;
+  font-size: 1rem;
+  margin: 0.4rem 0.1rem 0 0;
+}
+.flex-item {
+  flex: 1;
 }
 .arrow {
   opacity: 0.4;
-  font-size: 1rem;
+  font-size: 0.7rem;
 }
 .card-title {
-  font-size: 1.3rem;
+  margin: 0.3rem 0 0 0;
+  font-size: 1.2rem;
   text-align: center;
+}
+.title-link {
+  color: #000;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: all 0.5s ease;
 }
 .card-submit {
   text-align: center;
+  margin: 0.2rem 0;
 }
 .author {
   color: #00a8ff;
@@ -231,7 +233,7 @@ body {
     margin: 0 0.5rem;
   }
 }
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 950px) {
   .secondary-menu {
     font-size: 1rem;
     padding: 0.2rem;
@@ -250,8 +252,11 @@ body {
   .header {
     font-size: 1rem;
   }
+  .card-bottom {
+    flex-wrap: wrap;
+  }
 }
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 860px) {
   .top-menu-item {
     margin: 0 0.2rem;
   }
@@ -262,9 +267,6 @@ body {
   }
   .card {
     width: 200px;
-  }
-  .card-bottom {
-    flex-wrap: wrap;
   }
   .social {
     margin: 0 0.4rem;
